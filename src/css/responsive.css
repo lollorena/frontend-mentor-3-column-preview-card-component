@@ -1,0 +1,33 @@
+@media (max-width: 688px) {
+  .container {
+    margin: 100px 20px;
+    /* flex-direction: column; */
+  }
+
+  .suv {
+    margin: -10px 0;
+  }
+}
+
+@media (min-width: 688px) {
+  .container {
+    margin: 100px 20px;
+    flex-direction: column;
+  }
+
+  .suv {
+    margin: -10px 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .suv {
+    margin: 0 -10px;
+  }
+}
+
+
